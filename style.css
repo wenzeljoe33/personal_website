@@ -1,0 +1,225 @@
+
+.external{
+	text-align: left;
+}
+
+body{
+	
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Prata', serif;
+ font-weight: 700;
+ font-style: italic;
+ 
+}
+
+.school, .major, .code, .sports {
+	color: red;
+}
+
+
+.experience-header {
+	font-weight: bold;
+	text-align: left;
+}
+
+.objective {
+	font-weight: bold;
+	text-align: left;
+}
+.title{
+	/*text-align: center;*/
+	text-align: left;
+	font-weight: bold;
+}
+.experience{
+	text-align: left;
+}
+.education-header{
+	font-weight: bold;
+	text-align: left;
+
+}
+
+.education{
+	text-align: left;
+}
+.skills-header{
+	text-align: left;
+	font-weight: bold;
+}
+.languages{
+	text-align: left;
+}
+
+.frameworks{
+	text-align: center;
+}
+
+.platforms{
+	text-align: right;
+}
+
+.points {
+	text-align: left;
+}
+
+.places {
+	text-align: left;
+
+}
+.project-header{
+	font-weight: bold;
+	text-align: left;
+}
+.projects-list{
+	text-align: left;
+}
+.header {
+  padding: 15px;
+  text-align: center;
+  background: #000000;
+  color: white;
+  font-size: 15px;
+
+}
+
+.quote{
+	font-weight: bold;
+}
+.ghandi{
+	padding-left: 300px;
+}
+
+.img-me{
+	width: 350px;
+	float: right;
+/*	border-radius: 16px;
+*/	padding-right: 300px; 
+	padding-top: 150px;
+	
+  	
+	
+
+ 
+}
+
+
+
+.nav-wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-side{
+	display: flex;
+}
+.right-side{
+	padding-right: 450px;
+	font-weight: bold;
+}
+
+.nav-wrapper > .left-side > div {
+	margin-right: 20px;
+	font-size: .9em;
+	text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+	color: #8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+	border-bottom: 1px solid black; 
+}
+
+.nav-link-wrapper a:hover{
+	color: black; 
+}
+
+.movies-list{
+	text-align: left;
+}
+
+.show-list{
+	text-align: left;
+}
+
+.table-work{
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	width: 30%;
+}
+
+.table-work td, th{
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+.table-work a{
+	text-decoration: none;
+	color: #8a8a8a;
+	transition: color 0.5s;
+
+}
+.table-work a:hover{
+	color: black;
+}
+
+
+.projects{
+	text-align: center;
+}
+
+tr:nth-child(even){
+	background-color: #dddddd; 
+}
+
+.links{
+	height: 22px;
+	/*border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;*/
+}
+
+.links:hover{
+	/*border-bottom: 1px solid black; */
+}
+.links a {
+	color: #8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.links a:hover{
+	color: black;
+
+}
+
+.links {
+	margin-right: 20px;
+	font-size: .9em;
+	text-transform: uppercase;
+	justify-content: space-between;
+}
+
+.table-work a{
+	color: #8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
